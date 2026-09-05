@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "1.0.0",
+  "repository": "media-rights-readiness-tools",
+  "family": "rights_readiness",
+  "state": "LOCAL_READY",
+  "publisher": {
+    "name": "SHAR Production",
+    "website": "https://sharprod.com/"
+  },
+  "assets": [
+    {
+      "asset_id": "shar-pe400-w01-17",
+      "slug": "media-rights-evidence-checklist",
+      "name": {
+        "en": "Media Rights Evidence Checklist",
+        "ru": "Чек-лист доказательств прав на медиа"
+      },
+      "code_license": "MIT",
+      "fixtures_license": "CC-BY-4.0"
+    },
+    {
+      "asset_id": "shar-pe400-w01-18",
+      "slug": "release-form-field-auditor",
+      "name": {
+        "en": "Release Form Field Auditor",
+        "ru": "Аудитор заполненности релизов"
+      },
+      "code_license": "MIT",
+      "fixtures_license": "CC-BY-4.0"
+    }
+  ]
+}
