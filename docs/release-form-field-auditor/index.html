@@ -1,0 +1,15 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="index,follow"><title>Release Form Field Auditor · SHAR Production</title><meta name="description" content="Check release-form fields locally without accepting signatures or identity documents."><link rel="canonical" href="https://sharproduction.github.io/media-rights-readiness-tools/release-form-field-auditor/"><link rel="alternate" hreflang="en" href="https://sharproduction.github.io/media-rights-readiness-tools/release-form-field-auditor/"><link rel="alternate" hreflang="ru" href="https://sharproduction.github.io/media-rights-readiness-tools/release-form-field-auditor/ru/"><link rel="stylesheet" href="styles.css"></head><body><header><a class="brand" href="https://sharprod.com/"><b>SHAR</b> Production</a><nav class="lang"><a href="./">EN</a><a href="ru/">RU</a></nav></header><main data-tool="release-form-field-auditor"><p class="note">shar-pe400-w01-18 · Browser-local · MIT code / CC-BY-4.0 fixture</p><h1>Release Form Field Auditor</h1><p class="lead">Check release-form fields locally without accepting signatures or identity documents.</p><p class="note">Do not enter personal data, credentials, signatures, identity documents or confidential media.</p><div class="grid"><section><h2>JSON input</h2><textarea spellcheck="false" aria-label="JSON input"></textarea><p><button data-example>Load synthetic example</button><button data-run>Run check</button></p></section><section><h2>Result</h2><pre aria-live="polite">{}</pre></section></div><p><a class="cta" href="https://sharprod.com/contact.html">Discuss a project with SHAR Production</a></p><script type="application/json">{
+  "requiredFields": [
+    "participantName",
+    "consentDate",
+    "usageStart"
+  ],
+  "form": {
+    "participantName": "Synthetic Person",
+    "consentDate": "2026-09-01",
+    "usageStart": "2026-09-02",
+    "termEnd": "2027-09-02",
+    "revoked": false,
+    "isMinor": false
+  }
+}</script><script type="module" src="app.mjs"></script></main><footer>Runs locally in your browser. No upload, account, persistence, analytics or tracking.</footer></body></html>
