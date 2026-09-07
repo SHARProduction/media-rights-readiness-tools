@@ -1,0 +1,13 @@
+{
+  "previous": [],
+  "records": [
+    {
+      "id": "a1",
+      "text": "One review round",
+      "type": "assumption",
+      "confidence": "medium",
+      "owner": "producer",
+      "status": "open"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+import assert from 'node:assert/strict';import{evaluate}from'./src/core.js';let a=evaluate({previous:[],records:[{id:'a',text:'one review',type:'assumption',confidence:'medium',owner:'producer',status:'open'}]});assert.equal(a.valid,true);let b=evaluate({records:[{id:'a',text:'one review',owner:'',status:'bad'}]});assert.ok(b.errors.length>=2);console.log('PASS 2/2');
