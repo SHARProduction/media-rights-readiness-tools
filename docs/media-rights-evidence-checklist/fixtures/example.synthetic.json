@@ -1,0 +1,25 @@
+{
+  "requirements": {
+    "territories": [
+      "EU"
+    ],
+    "channels": [
+      "web"
+    ],
+    "termEnd": "2027-01-01"
+  },
+  "items": [
+    {
+      "id": "music-01",
+      "provenance": "licensed library",
+      "evidenceReference": "contract-ref-01",
+      "territories": [
+        "EU"
+      ],
+      "channels": [
+        "web"
+      ],
+      "termEnd": "2027-12-31"
+    }
+  ]
+}
